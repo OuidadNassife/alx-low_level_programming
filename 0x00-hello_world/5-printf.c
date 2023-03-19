@@ -1,14 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - prints with proper grammar, but the outcome is a piece of art,
+ * main - Entry point
  *
- * Return: Always 0.
-*/
-
-int main()
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
-	printf( "ok" );
-        return (0);
+puts("with proper grammar, but the outcome is a piece of art,");
+return (0);
 }
-
