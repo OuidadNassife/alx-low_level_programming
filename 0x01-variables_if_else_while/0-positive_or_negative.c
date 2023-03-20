@@ -3,28 +3,26 @@
 #include <stdio.h>
 
 /**
- * main - The code print the number in the variable n is positive or negative
+ * main - Determines if a number is positive, negative or zero
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-int n = rand() - RAND_MAX / 2;
+int n;
 srand(time(0));
-if (n < 0)
+n = rand() - RAND_MAX / 2;
+if (n > 0)
 {
-printf("%d is negative \n", n);
+printf("%d is positive \n", n);
 }
-else
-{
-if (n == 0)
+else if (n ==0 )
 {
 printf("%d is zero \n", n);
 }
 else
 {
-printf("%d is positive \n", n);
-}
+printf("%d is negative \n", n);
 }
 return (0);
 }
