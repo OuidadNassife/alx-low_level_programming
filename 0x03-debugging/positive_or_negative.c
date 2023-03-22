@@ -2,7 +2,6 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 
 /**
  *main -Determines if a number is positive, negative or zero
@@ -13,8 +12,6 @@
 void positive_or_negative(int i)
 {
 
-srand(time(0));
-i = rand() - RAND_MAX / 2;
 if (i > 0)
 {
 printf("%d is positive\n", i);
