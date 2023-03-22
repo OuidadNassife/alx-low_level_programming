@@ -16,7 +16,7 @@ while (k + j < 4000000)
 k = k + 1;
 if (k % 2 == 0)
 {
-sum = sum +k;
+sum = sum + k;
 j = k - j;
 ++i;
 }
