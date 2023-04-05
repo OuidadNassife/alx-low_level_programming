@@ -1,9 +1,10 @@
 #include "main.h"
-
 /**
- * _print_recursion - prints a string in reserve
- * @s: string of characters to be printed
+ * _print_rev_recursion - Prints a string in reverse
+ * @s: string
  *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
 void _print_rev_recursion(char *s)
 {
